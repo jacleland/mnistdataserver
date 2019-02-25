@@ -1,5 +1,8 @@
 package com.jamescleland.mnistdataserver.service;
 /**
+ * Implementation of the ImageDataService which implements the I-Service
+ * interface of the same name. Handles mapped requests from the application
+ * controller for data through DAOs.
  * 
  */
 

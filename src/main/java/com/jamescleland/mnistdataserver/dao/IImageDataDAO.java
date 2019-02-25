@@ -1,7 +1,7 @@
 package com.jamescleland.mnistdataserver.dao;
-
 /**
- * 
+ * Interface definition for the image data DAO
+ *  
  */
 
 //Java imports

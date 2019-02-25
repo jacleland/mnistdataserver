@@ -1,5 +1,8 @@
 package com.jamescleland.mnistdataserver.entity;
 /**
+ * Entity bean mapped to the image_data table
+ * 
+ * TODO: Need to complete comments for get/set methods
  * 
  */
 
