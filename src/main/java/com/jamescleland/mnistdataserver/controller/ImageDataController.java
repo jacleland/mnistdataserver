@@ -1,6 +1,12 @@
 package com.jamescleland.mnistdataserver.controller;
 /**
- * 
+ * This file contains the implementation of the Spring Boot controller
+ * for the MNIST data viewer web application. The application is an
+ * Active Web Page which will consume JSON data returned by this interface.
+ * The controller relies on Spring Boot's JSON translation of containers
+ * and beans with the exception of method returning single values (such
+ * as getImageCount()), in which case JSON object generation is forced
+ * by returning a key/value map containing the single return value.
  */
 
 //Java imports

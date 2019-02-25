@@ -17,6 +17,23 @@ import com.jamescleland.mnistdataserver.dao.IImageDataDAO;
 import com.jamescleland.mnistdataserver.entity.ImageData;
 
 /**
+ * Implementation of the ImageDataService which implements the I-Service
+ * interface of the same name. Handles mapped requests from the application
+ * controller for data through DAOs.
+ * 
+ * Class annotated as @Service, a specialization of @Component for 
+ * MVC service types.
+ * 
+ * DAOs consumed by this service should be annotated @Repository and
+ * service interface methods that use DAOs should catch unchecked exceptions
+ * of type DataAccessException. 
+ * 
+ * TODO: Create a failure state in the DAO that will propagate an unchecked
+ * exception to the service layer, catch this exception as DataAccessException
+ * to confirm @Repository annotation behavior as per the Spring documentation.
+ * 
+ * TODO: Error check comments in service methods are obsolete, DAO calls should
+ * be enclosed in try/catch to handle DataAccessException thrown from JPA.
  * 
  * @author jcleland
  *

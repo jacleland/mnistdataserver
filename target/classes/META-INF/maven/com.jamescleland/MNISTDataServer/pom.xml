@@ -46,7 +46,11 @@
 	<build>
 		<plugins>
 			<plugin>
-				<!-- Required to include deps with project in runnable jar -->
+				<!-- Required to include deps with project in runnable jar 
+				Spring.io Documentation says: Once spring-boot-maven-plugin 
+				has been included in your pom.xml, it automatically tries to 
+				rewrite archives to make them executable by using the 
+				spring-boot:repackage goal. -->
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
